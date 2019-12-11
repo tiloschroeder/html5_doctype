@@ -100,6 +100,9 @@
                 $html_doctype = preg_replace('/ xmlns=\"http:\/\/www.w3.org\/1999\/xhtml\"| xml:lang="[^\"]*\"/', '', $html_doctype);
                 $html_doctype = preg_replace('/<meta http-equiv=\"Content-Type\" content=\"text\/html; charset=(.*[a-z0-9-])\"( \/)?>/i', '<meta charset="\1"\2>', $html_doctype);
 
+                // replace the closing source element with a self-closing
+                $html_doc = str_replace('></source>', '/>', $html_doc);
+
                 // Concatenate the fragments into a complete HTML5 document
                 $html = $html_doctype . "\n" . $html_doc;
 
