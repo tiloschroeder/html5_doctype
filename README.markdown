@@ -1,3 +1,5 @@
+![Static Badge](https://img.shields.io/badge/build-passing-brightgreen?style=for-the-badge&logo=php&logoColor=green&label=PHP%208)
+
 # HTML5 Doctype #
 
 This is an extension for [Symphony 2](http://getsymphony.com/): A cludge to enforce a basic HTML5 doctype regardless of your XSLT output.
