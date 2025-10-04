@@ -199,5 +199,4 @@ class extension_html5_doctype extends Extension
         return $buffer;
     }
 
-
 }

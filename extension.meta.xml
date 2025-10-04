@@ -3,12 +3,13 @@
     <name>HTML5 Doctype</name>
     <description>Convert XHTML to HTML5</description>
     <repo type="github">https://github.com/tiloschroeder/html5_doctype</repo>
-    <url type="discuss">https://www.getsymphony.com/discuss/thread/79978/</url>
     <types>
         <type>Other</type>
     </types>
     <authors>
         <author>
+            <name github="tiloschroeder">Tilo Schröder</name>
+            <website>https://tiloschroeder.de/</website>
             <name github="tiloschroeder" symphony="tiloschroeder">Tilo Schröder</name>
         </author>
         <author>
@@ -17,6 +18,10 @@
         </author>
     </authors>
     <releases>
+        <release version="1.4.0" date="2025-04-11" min="2.3" max="2.x.x">
+            - the HTML source code can be minified
+            - the trailing slash for self-closing elements is removed according to the recommendation of the W3C validator
+        </release>
         <release version="1.3.6" date="2023-11-09" min="2.3" max="2.x.x">
             - Add minify HTML
         </release>
